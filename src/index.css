@@ -1,0 +1,26 @@
+body {
+    background-color: #4b4b4b;
+}
+
+p {
+    margin: 0;
+}
+
+.input-text {
+    width: 300px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: Acme;
+    border-radius: 10px;
+    color: #333;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}

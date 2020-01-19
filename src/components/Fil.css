@@ -1,0 +1,74 @@
+#fil .artist-choice {
+    display: flex;
+    align-items: center;
+    color: white;
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    background: #c0392b;
+    margin: 5px 0;
+}
+
+#fil .artist-choice p {
+    margin-left: 5px;
+}
+
+#fil .list-artist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+    margin-bottom: -20px;
+}
+
+#fil .list-artist > *  {
+    margin-bottom: 20px;
+}
+
+#fil .list-artist > * + * {
+    margin-left: 20px;
+}
+
+#fil .mix-track {
+    display: flex;
+    width: 500px;
+    padding: 12px;
+    background: whitesmoke;
+    font-family: Acme;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#fil .mix-track .info-track {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#fil .mix-track .play-button {
+    display: inline-block;
+    background-color: #3ae374;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#fil .image-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fil .mix-track .play-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#fil .mix-track > * + * {
+    margin-left: 20px;
+}

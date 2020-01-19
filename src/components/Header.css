@@ -1,0 +1,11 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.header-img {
+    margin: 20px 0;
+    cursor: pointer;
+}

@@ -1,0 +1,115 @@
+#artist .section .top-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#artist .section .top-info > * + * {
+    margin-left: 20px;
+}
+
+#artist .section .top-info img {
+    object-fit: contain;
+}
+
+#artist .section .top-info .title {
+    color: #ff9f1a;
+    text-align: center;
+    font-size: 3em;
+    font-family: Acme;
+}
+
+#artist .section .top-info .icon {
+    font-size: 3em;
+}
+
+#artist .section .top-info .icon.selected {
+    color: #ff3838;
+}
+
+#artist .section .type-search-button {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    font-family: Acme;
+    margin: 5px 20px;
+    padding: 5px 10px;
+    font-family: 20px;
+}
+
+#artist .section .type-search-button.selected {
+    background-color: #3ae374;
+    color: white;
+}
+
+#artist .section .type-search-button.unselected {
+    background-color: #ff3838;
+    color: white;
+    opacity: 0.5;
+}
+
+#artist .section .periode-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#artist .section .periode-row > * + * {
+    margin-left: 50px;
+}
+
+#artist .section .periode-box > p {
+    color: white;
+    font-family: Acme;
+    font-size: 20px;
+    text-align: center;
+}
+
+#artist .section .periode-box > input[type=date] {
+    border: 3px solid #666666;
+    border-radius: 20px;
+    margin-top: 8px;
+    padding: 5px 10px;
+}
+
+#artist .section .submit-button {
+    background-color: #ff9f1a;
+    border: 3px solid #666666;
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-family: Acme;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#artist .back-button {
+    background-color: #ff3838;
+    border: 3px solid #666666;
+    border-radius: 10px;
+    color: #3D3D3D;
+    cursor: pointer;
+    font-family: Acme;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 12px;
+
+}
+
+#artist .album-box {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background: whitesmoke;
+    border-radius: 10px;
+    width: 100%;
+    font-family: Acme;
+    font-size: 20px;
+}
+
+#artist .album-box img {
+    margin-right: 10px;
+}
